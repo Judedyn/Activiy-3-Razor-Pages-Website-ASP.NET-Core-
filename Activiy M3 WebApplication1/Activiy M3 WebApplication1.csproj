@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Activiy_M3_WebApplication1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\About.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\About.cshtml.cs" />
+  </ItemGroup>
+
+</Project>
